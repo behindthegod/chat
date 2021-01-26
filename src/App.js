@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import Menu from "./Menu";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className='todo'>
+      <div className='todo_sidebar'>
+          <Menu/>
+      </div>
     </div>
   );
 }
